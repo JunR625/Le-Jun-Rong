@@ -1,0 +1,56 @@
+.beefwellington img{
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+} 
+
+.ljrbanner{
+  padding:3%;
+  color:white;
+  background:rgb(17, 35, 76);
+  margin-bottom:1%;
+}
+
+.ljrright{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-right:100px;
+  font-size:70px;
+}
+
+.ljrleft{
+  margin-top:10px;
+  font-size:35px;
+}
+
+.thirdsection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.thirdsectionleft{
+    display: grid;
+    grid-template-columns: 170fr 1fr;
+    cursor: pointer;
+}
+
+
+.thirdsectionright {
+  cursor: pointer;
+  grid-column: 2 / 4;
+  display: flex;
+  flex-direction: column;
+}
+
+.thirdsection img{
+  width: 100%;
+  height: 100%;
+}
+
+.kenny img {
+  width: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+

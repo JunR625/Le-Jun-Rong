@@ -1,0 +1,97 @@
+.banner{ font-family: 'Khand', sans-serif;
+        src: url(Khand-Medium.ttf);
+        background-color: #022954;
+        color :#F3F3F3;
+        text-align: center;
+        margin: -30px 0px -32px 0px;
+        }
+
+    
+.bgimg{background-image: url(../Images/bgimg.png);
+        background-size: cover;
+        margin-bottom: -7px;}
+
+.first{font-family:'Crimson Text', serif;
+        src: url(CrimsonText.ttf);
+        color: #F3F3F3;
+        text-align: center;
+        font-size:large;
+        line-height: 1.5;
+        margin: auto;
+        margin-bottom: -8px;
+        width: 50%;}
+
+
+    
+.second{display: flex;
+        line-height: 1;
+        }
+
+.review {font-family:'Crimson Text', serif;
+        src: url(CrimsonText.ttf);
+        background-color: #F3F3F3;
+        opacity: 0.8;
+        color: #000000;
+        font-size:large;
+        height: 165px;
+        line-height: 2;
+        text-align: center;
+        }
+
+
+.contactbutton{font-family:'Crimson Text', serif;
+                text-align: center; 
+                margin-top: 10px;
+                margin-bottom: 5px;
+                font-size: 40px;
+                font-weight: bold;
+                }
+        
+.centreform{text-align: center;
+                display: block;
+                opacity: 0.8;
+                }
+
+
+form {background-color: #EAEAEA;
+        font-family:'Crimson Text', serif;
+        width: 600px;
+        padding: 10px;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        
+label {
+        float: left;
+        clear: left;
+        display: grid;
+        width: 100px;
+        text-align: right;
+        padding-right: 10px;
+        margin-top: 30px; 
+        font-size: 20px;}
+        
+input, textarea {
+        font-size: 20px;
+        margin-top: 30px;
+        display: block;
+        font-family:'Crimson Text', serif;
+        }
+
+input[type="text"] {
+                 font-size:20px;
+                }
+
+button[type="submit"] {
+                        width: 120px;  height: 40px;
+                        font-family:'Crimson Text', serif;
+                        font-size: 25px;
+                    }
+        
+
+
+
+    
+    
+    

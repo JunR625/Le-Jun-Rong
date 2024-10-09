@@ -1,0 +1,122 @@
+body {
+  max-width: 100%;
+}
+
+.menu {
+  padding-bottom: 5%;
+  padding-left: 1.5em;
+  padding-right: 2em;
+}
+
+.coffee {
+  width: 76%;
+  height: 400px;
+}
+
+p {
+  margin: 0;
+}
+
+hr{
+  border: 1px solid black;
+}
+
+.top_main {
+  display: flex;
+  padding-top: 2em;
+  padding-left: 2em;
+}
+
+.rotated_text {
+  writing-mode: vertical-rl;
+  font-size: 3em;
+  color: white;
+  background: #022954;
+  padding: 1em 0.3em 0em 0.3em;
+  float: left;
+}
+
+.coffee_table1 {
+  border-collapse: collapse;
+}
+
+.coffee_table1 td {
+  padding: 2em 3.3em 2em 3em;
+  text-align: center;
+}
+
+.coffee_table2 {
+  border-collapse: collapse;
+}
+
+.coffee_table2 td {
+  padding: 2em 5.5em 2em 7em;
+  text-align: center;
+}
+
+.bordered_column {
+  border-left: 2px solid #022954;
+  border-right: 2px solid #022954;
+}
+
+.bordered_column2 {
+  border-left: 2px solid #022954;
+  border-right: 2px solid #022954;
+  width: 4.7em;
+}
+
+.bottom_main {
+  padding-top: 2em;
+  width: 100%;
+  overflow: hidden; /* Clear the float to contain the floated elements */
+}
+
+.left_col {
+  float: left;
+  width: 30em;
+  padding-right: 1em;
+}
+
+.drink {
+  width: 30em;
+  height: 30em;
+}
+
+.non_coffee {
+  overflow: hidden;
+  font-size: 3em;
+  color: white;
+  background: #022954;
+  padding: 0.3em 0em 0.3em 0.5em;
+}
+
+.drinks_name{
+  float: left;
+  padding-left: 2em;
+}
+
+.drinks_name p{
+  padding: 1em 0em 1em 0em;
+}
+
+.drinks_price{
+  float: right;
+  padding-right: 2em;
+}
+
+.drinks_price p{
+  padding: 1em 0em 1em 0em;
+}
+
+.footermakecenter2{
+  padding-right: 20em;
+}
+
+@media screen and (max-width:390px){
+  html{
+    display: flex;
+  }
+  header{
+    display: flex;
+  }
+}

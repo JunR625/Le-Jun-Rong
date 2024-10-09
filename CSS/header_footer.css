@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "Khand";
+    src: url(../Khand/Khand-SemiBold.ttf);
+  }
+  
+  body {
+    font-family: "Khand", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  .logohorizontal {
+      height:210px;
+      width: 250px;
+      cursor: pointer;
+  }
+  
+  .navbar {
+    box-shadow: 1px 3px 4px 0px rgba(45, 45, 54, 0.71);
+    background-color: #fefefe;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    margin-bottom:10px;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-center ul li {
+    display: inline-block;
+    margin: 40px;
+  }
+  
+  .navbar-center ul li a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .navbar-right {
+    text-align: right;
+    margin:80px;
+  }
+  
+  .navbar-right button{
+    cursor: pointer;
+    border-radius: 20px;
+    height: 50px;
+    width: 120px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .navbar-right .signin {
+    background: none;
+    color: black;
+    margin-right: 5px;
+  }
+  
+  .navbar-right .signup {
+    background:rgb(37, 55, 94);
+    color: white;
+    margin-right: -25%;
+  }
+
+
+  /*Footer starts here*/
+footer {
+    box-shadow: 0px -3px 4px 0px rgba(45, 45, 54, 0.71);
+    background: #f4f4f4;
+    margin-top:10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    clear: both;
+  }
+  
+  .logovertical {
+    height: 230px;
+    width: auto;
+    padding-left: 70px;
+  }
+  
+  .footermakecenter {
+    padding-right: 500px;
+  }
+  
+  .footerbrandname {
+    font-size: 40px;
+  }
+  
+  .footerdesc {
+    text-align: center;
+  }
+  
+  .insta {
+    height:70px;
+    width: 100px;
+  }
+  
+  .fb {
+    height:58px;
+    width: 60px;
+    margin-right:20px;
+  }
+  
+  .yt {
+    height:70px;
+    width: 60px;
+  }
